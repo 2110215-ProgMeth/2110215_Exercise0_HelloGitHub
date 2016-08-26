@@ -1,8 +1,10 @@
+import java.util.*;
+
 public class Hello {
 
 	public static void main(String[] args) {
 		
-		System.out.println(Hello.greetingMessage("GitHub"));
+		System.out.println(Hello.greetingMessage("PalmPTSJ"));
 		
 		int[] array = {5,4,3,2,1};
 		
@@ -13,11 +15,12 @@ public class Hello {
 
 	public static String greetingMessage(String name){
 		// TODO Return string in this format - "Hello, " + given name.
-		return "";
+		return "Hello, " + name;
 	}
 
 	public static int[] bubbleSort(int[] array){
 		// TODO Sort the given array in an ascending order and return the sorted array.
+		Arrays.sort(array);
 		return array;
 	}
 	
