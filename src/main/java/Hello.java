@@ -4,7 +4,7 @@ public class Hello {
 
 	public static void main(String[] args) {
 		
-		System.out.println(Hello.greetingMessage("PalmPTSJ"));
+		System.out.println(Hello.greetingMessage("Github"));
 		
 		int[] array = {5,4,3,2,1};
 		
