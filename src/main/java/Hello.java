@@ -12,7 +12,7 @@ public class Hello {
 	}
 
 	public static String greetingMessage(String name){
-		// TODO Return string in this format - "Hello, " + given name.
+		// TODO Return string in this format - "Hello, " + given name. 
 		return "Hello, "+name;
 	}
 
