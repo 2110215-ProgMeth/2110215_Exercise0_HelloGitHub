@@ -13,7 +13,7 @@ public class Hello {
 
 	public static String greetingMessage(String name){
 		// TODO Return string in this format - "Hello, " + given name.
-		return "";
+		return "Hello "+name;
 	}
 
 	public static int[] bubbleSort(int[] array){
