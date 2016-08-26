@@ -17,7 +17,7 @@ public class Hello {
 	}
 
 	public static int[] bubbleSort(int[] array){
-		int x;
+		int y;
 		// TODO Sort the given array in an ascending order and return the sorted array.
 		for(int i=0;i<array.length-1;i++)
 		{
@@ -25,9 +25,9 @@ public class Hello {
 			{
 				if(array[i]>array[j])
 				{
-					x=array[i];
+					y=array[i];
 					array[i]=array[j];
-					array[j]=x;
+					array[j]=y;
 				}
 			}
 		}
