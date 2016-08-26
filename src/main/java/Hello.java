@@ -13,11 +13,21 @@ public class Hello {
 
 	public static String greetingMessage(String name){
 		// TODO Return string in this format - "Hello, " + given name.
-		return "";
+		return "Hello, " + name;
 	}
 
 	public static int[] bubbleSort(int[] array){
 		// TODO Sort the given array in an ascending order and return the sorted array.
+		int t;
+		for (int i = 0; i<array.length-1; i++){
+			for (int j = i; j<array.length; j++){
+				if (array[i]>array[j]){
+					t = array[i];
+					array[i] = array[j];
+					array[j] = t;
+				}
+			}
+		}
 		return array;
 	}
 	
