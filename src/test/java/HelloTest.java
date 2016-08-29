@@ -6,8 +6,8 @@ public class HelloTest {
 
 	@Test
 	public void testGreetingMessage() {
-		assertEquals("Hello, GitHub", Hello.greetingMessage("GitHub"));
-		assertEquals("Hello, Eclipse", Hello.greetingMessage("Eclipse"));
+		assertEquals("Hello, GitHub", Hello.greetingMessage());
+		assertEquals("Hello, Eclipse", Hello.greetingMessage());
 	}
 	
 	@Test
