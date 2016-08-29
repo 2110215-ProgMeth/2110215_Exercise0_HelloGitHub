@@ -2,7 +2,7 @@ public class Hello {
 
 	public static void main(String[] args) {
 		
-		System.out.println(Hello.greetingMessage());
+		System.out.println(Hello.greetingMessage("GitHub"));
 		
 		int[] array = {5,4,3,2,1};
 		
@@ -11,9 +11,9 @@ public class Hello {
 		System.out.println(Hello.arrayToString("Sorted Array", array));
 	}
 
-	public static String greetingMessage(){
+	public static String greetingMessage(String name){
 		// TODO Return string in this format - "Hello, " + given name.
-		return "Hello, GitHub";
+		return "Hello, "+name;
 	}
 
 	public static int[] bubbleSort(int[] array){
