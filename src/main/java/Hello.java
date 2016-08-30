@@ -13,18 +13,29 @@ public class Hello {
 
 	public static String greetingMessage(String name){
 		// TODO Return string in this format - "Hello, " + given name.
-		return "";
+		return "Hello, " + name;
 	}
 
 	public static int[] bubbleSort(int[] array){
 		// TODO Sort the given array in an ascending order and return the sorted array.
+		int temp;
+		for(int i=0; i<array.length-1; i++){
+			for (int j=1 ; j<array.length-i ; j++){
+				if(array[j-1] > array[j]){
+					temp = array[j-1];
+					array[j-1] = array[j];
+					array[j]=temp;
+				}
+			}
+		}
+		
 		return array;
 	}
 	
 	public static String arrayToString(String title,int[] array){
 		
 		String str = title + " : ";
-		for (int i = 0;i < array.length;i++)
+		for (int i=0 ; i<array.length ; i++)
 		{
 			str += array[i] + " ";
 		}
